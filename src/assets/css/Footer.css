@@ -1,0 +1,89 @@
+/* Footer.css */
+.footer {
+  padding: 20px 0;
+  color: #fff;
+  background-color: #333;
+}
+
+
+.footer-content {
+  display: flex;
+  flex-direction: column; /* Mengatur tata letak kolom pada perangkat kecil */
+  align-items: center; /* Mengatur elemen-elemen di tengah secara horizontal */
+  justify-content: center; /* Mengatur elemen-elemen di tengah secara vertikal */
+  text-align: center; /* Memusatkan teks dalam setiap elemen */
+}
+
+
+
+.footer-left h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+.footer-center h3 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.footer-left h2 span {
+  color: #007bff;
+  
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .footer-content {
+    flex-direction: row; /* Tata letak baris pada layar besar */
+    justify-content: space-between; /* Ruang antara kolom pada layar besar */
+    text-align: left; /* Kembalikan alignment teks ke kiri pada layar besar */
+  }
+  .footer-left h2 {
+    margin-bottom: 10px;
+  }
+
+  .footer-left, .footer-center, .footer-right {
+    margin: 50px;
+  }
+
+  .footer-right {
+    text-align: right;
+  }
+  .footer-right ul {
+    margin-top: 30px;
+  }
+}

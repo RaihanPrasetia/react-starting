@@ -1,0 +1,11 @@
+.section-content h2 {
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.lead{
+    text-align: justify;
+}
+.col-md-6 .lead {
+    font-size: 22px;
+}

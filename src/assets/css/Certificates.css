@@ -1,0 +1,42 @@
+.certificate-card {
+  background: linear-gradient(to left, #000428, #004e92); /* Gradien dari biru ke hitam */
+  color: white;
+  border: none;
+  height: 100%; /* Pastikan kartu memiliki tinggi penuh */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.certificate-card .card-title {
+  font-weight: bold; /* Teks bold */
+}
+
+.certificate-card .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Pastikan gambar berada di tengah */
+}
+
+.certificate-card .card-img-top {
+  max-height: 200px; /* Atur tinggi maksimum gambar */
+  width: auto;
+  margin: 0 auto;
+}
+
+.card {
+  height: 100%; /* Membuat setiap kartu memiliki tinggi penuh */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch; /* Membuat kolom sama tinggi */
+}
+
+.col-md-4 {
+  display: flex;
+  flex-direction: column;
+}

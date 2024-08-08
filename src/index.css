@@ -1,0 +1,16 @@
+/* index.css */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  background-color: rgb(24, 23, 23);
+  color: white; /* Optional: Set text color to white for better readability */
+  min-height: 100vh;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  
+}

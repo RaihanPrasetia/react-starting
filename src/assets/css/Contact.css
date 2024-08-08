@@ -1,0 +1,41 @@
+/* Contact.css */
+
+.section h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.section .form-group {
+  margin-bottom: 10px;
+}
+
+.section .form-control {
+  border-radius: 0;
+  height: 60px; /* Tinggi default untuk input fields */
+}
+
+.section .form-control[type="textarea"] {
+  height: auto; /* Mengizinkan textarea untuk diperluas berdasarkan konten */
+}
+
+.section .btn {
+  background-color: #007bff;
+  border: none;
+  border-radius: 0;
+  margin-top: 5px;
+ 
+}
+
+.container label {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Adjust the textarea height to align with the input fields */
+.section .message {
+  height: calc(60px * 3 + 20px); /* Adjusting height: 3 input fields + spacing */
+  resize: none; /* Disable manual resizing */
+}

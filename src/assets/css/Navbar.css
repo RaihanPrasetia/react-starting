@@ -1,0 +1,58 @@
+/* Navbar.css */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: #333;
+  color: white;
+}
+.nav-text {
+  color: #007bff;
+}
+
+.navbar-brand {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.navbar-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar-nav a:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 10px;
+}
+
+.btn-gradient {
+  background: linear-gradient(to right, #007bff, #000000); /* Gradasi dari biru ke hitam */
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  transition: background 0.3s ease-in-out;
+  font-weight: 500;
+}
+
+.btn-gradient:hover{
+  background: linear-gradient(to right, #000000, #007bff); /* Gradasi dari biru ke hitam */
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  transition: background 0.3s ease-in-out;
+  font-weight: 500;
+}
+

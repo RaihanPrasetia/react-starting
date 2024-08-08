@@ -1,0 +1,52 @@
+/* Home.css */
+.home {
+  width: 100%; 
+  background-color: rgb(24, 23, 23);
+  /* Padding untuk konten */
+}
+
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h2 {
+    font-size: 24px;
+}
+
+/* Home.css */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  from { border-color: transparent; }
+  to { border-color: black; }
+}
+
+.typing-text {
+  font-size: 24px;
+  color: #007bff; /* Warna biru untuk teks */
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #007bff; /* Cursor ketikan */
+  animation: typing 2s steps(40, end), blink .75s step-end infinite;
+}
+
+.lead {
+  text-align: justify;
+}
+
+@media (max-width: 767.98px) {
+  .typing-text {
+    display: block;
+    font-size: 18px; /* Ukuran font lebih kecil untuk layar kecil */
+    margin-top: 5px;
+    margin-bottom: 0; /* Memberi jarak antara elemen di atasnya */
+  }
+}
